@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Document</title>
+</head>
+
+<body>
+
+    <button id="btn1">Click me!</button>
+    <button id="btn2">But not me!</button>
+    <button id="btn3">maybe me?</button>    
+
+</body>
+
+<script>
+
+    let btn1 = document.getElementById('btn1');
+    let btn2 = document.getElementById('btn2');
+    let btn3 = document.getElementById('btn3');
+
+    btn1.addEventListener('click', function(evt) {
+        console.log("hello from btn1");
+    });
+    
+    btn2.addEventListener('click', function(evt) {
+        console.log("hello from btn2");
+    });
+    
+    btn3.addEventListener('click', function(evt) {
+        console.log("hello from btn3");
+    });    
+    
+</script>
+
+</html>
